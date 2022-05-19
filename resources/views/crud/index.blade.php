@@ -70,4 +70,15 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'excel'
+            ]
+        });
+    });
+</script>
 @endsection
